@@ -6,10 +6,6 @@ For the UI, I used [Stylecraft](https://github.com/iding-ir/stylecraft), a css f
 
 Data structure in this project follows [GeoJSON](https://geojson.org/) standard.
 
-## Demo
-
-[Live demo](http://realestate-map.iding.ir)
-
 ## Performance
 
 - This app uses WebGL to render vector tiles which makes use of the graphic processor to provide a better map rendering.
@@ -19,5 +15,3 @@ Data structure in this project follows [GeoJSON](https://geojson.org/) standard.
 - Using React, map immediately reacts to filter changes and re-renders the results.
 
 ## Preview
-
-<img src="https://github.com/iding-ir/realestate-map/blob/master/raw/previews/preview-1.gif" alt="Preview" style="width:100%;">
