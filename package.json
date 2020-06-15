@@ -1,0 +1,54 @@
+{
+  "name": "realestate-map",
+  "version": "1.0.1",
+  "description": "Real estate map filter with React.",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "map",
+    "React",
+    "GeoJSON",
+    "Mapbox GL JS",
+    "Mapcraft",
+    "Stylecraft"
+  ],
+  "author": {
+    "name": "luca",
+    "email": "forever_ourvictory@hotmail.com"
+  },
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "mapbox-gl": "^1.5.0",
+    "mapcraft": "^0.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-image-gallery": "^0.9.1",
+    "react-input-range": "^1.3.0",
+    "react-scripts": "^3.4.1",
+    "stylecraft": "^0.1.1",
+    "terraformer": "^1.0.9"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
