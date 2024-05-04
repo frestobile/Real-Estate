@@ -19,7 +19,10 @@ class Sreach extends Component {
       onChangeDeposit,
       onChangeTour,
       getPlacesCount,
-      disableTour
+      disableTour,
+      place,
+      location,
+
     } = this.props;
 
     return (
@@ -119,6 +122,32 @@ class Sreach extends Component {
               />
             </div>
 
+            <h6>Deposit</h6>
+
+            <div className="sc-form-group sc-grid-1">
+              <InputRange
+                maxValue={200000}
+                minValue={10000}
+                step={1000}
+                value={{ min: deposits.from, max: deposits.to }}
+                onChange={value => {
+                  onChangeDeposit(value);
+                }}
+              />
+            </div>
+            <h6>Deposit</h6>
+
+            <div className="sc-form-group sc-grid-1">
+              <InputRange
+                maxValue={200000}
+                minValue={10000}
+                step={1000}
+                value={{ min: deposits.from, max: deposits.to }}
+                onChange={value => {
+                  onChangeDeposit(value);
+                }}
+              />
+            </div>
             <h6>Deposit</h6>
 
             <div className="sc-form-group sc-grid-1">
